@@ -23,3 +23,11 @@ public:
     virtual Room* MakeRoom(int n) const { return new EnhantedRoom(n); }
     virtual Door* MakeDoor(Room* r1, Room* r2) const { return new DoorNeedingSpell(r1, r2); }
 };
+
+class BombedMazeFactory : public MazeFactory {
+public:
+    BombedMazeFactory() {}
+
+    virtual Wall* MakeWall() const { return new BombedWall; }
+    virtual Room* MakeRoom(int n) const { return new BombedRoom(n); }
+};

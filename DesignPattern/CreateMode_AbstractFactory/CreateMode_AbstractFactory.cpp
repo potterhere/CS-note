@@ -8,9 +8,17 @@
 
 int main()
 {
-    // 
-    MazeGame game;
-    EnchantedMazeFactory *factory = new EnchantedMazeFactory();
+    {
+        MazeGame game;
+        MazeFactory* factory = new EnchantedMazeFactory();
 
-    Maze* aMaze = game.CreateMaze(factory);
+        Maze* aMaze = game.CreateMaze(factory); 
+    }
+
+    {
+        MazeGame game;
+        MazeFactory* factory = new BombedMazeFactory();
+
+        Maze* aMaze = game.CreateMaze(factory);
+    }
 }
