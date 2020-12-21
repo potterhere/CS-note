@@ -13,6 +13,6 @@ public:
 		builder.BuildeRoom(2);
 		builder.BuildeDoor(1, 2);
 
-		return aMaze;
+		return builder.GetMaze();
 	}
 };
