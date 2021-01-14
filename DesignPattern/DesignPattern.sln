@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateMode_Prototype", "Cre
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateMode_Singleton", "CreateMode_Singleton\CreateMode_Singleton.vcxproj", "{93069A94-0A22-40C1-A36C-92DC9848C9EB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StructureMode_Adapter", "StructureMode_Adapter\StructureMode_Adapter.vcxproj", "{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{93069A94-0A22-40C1-A36C-92DC9848C9EB}.Release|x64.Build.0 = Release|x64
 		{93069A94-0A22-40C1-A36C-92DC9848C9EB}.Release|x86.ActiveCfg = Release|Win32
 		{93069A94-0A22-40C1-A36C-92DC9848C9EB}.Release|x86.Build.0 = Release|Win32
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Debug|x64.ActiveCfg = Debug|x64
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Debug|x64.Build.0 = Debug|x64
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Debug|x86.Build.0 = Debug|Win32
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Release|x64.ActiveCfg = Release|x64
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Release|x64.Build.0 = Release|x64
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Release|x86.ActiveCfg = Release|Win32
+		{EE2CFE2E-27A5-48EF-9F93-0CFD74C14199}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
