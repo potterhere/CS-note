@@ -15,7 +15,7 @@ public:
         return vecResult;
     }
 
-    void partition(string s, const vector<string>& vecCurrent)
+    void partition(string s, vector<string>& vecCurrent)
     {
         if (s.size() == 0)
         {
@@ -31,23 +31,35 @@ public:
             {
                 continue;
             }
-            vector<string> vecNextUse = vecCurrent;
-            vecNextUse.push_back(strSub);
+
+            vecCurrent.push_back(strSub);
 
             string strNext = s.substr(i);
-            partition(strNext, vecNextUse);
+            partition(strNext, vecCurrent);
+
+            vecCurrent.pop_back();
         }
     }
 
 private:
-    bool bIsPalidrome(string s)
+    bool bIsPalidrome(const string &s)
     {
-        string strRevert = s;
-        std::reverse(strRevert.begin(), strRevert.end());
-
-        if (strRevert == s)
-            return true;
-        return false;
+        size_t nBegin = 0;
+        size_t nEnd = s.size() - 1;
+        while (nBegin < nEnd)
+        {
+            if (s[nBegin] == s[nEnd])
+            {
+                ++nBegin;
+                --nEnd;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        
+        return true;
     }
 
     vector<vector<string>> vecResult;
