@@ -50,6 +50,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "131_PalindromePartitioning"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16_3SumClosest", "16_3SumClosest\16_3SumClosest.vcxproj", "{5D33A551-2804-43E3-836C-B72F6A3FCBD8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5_LongestPalindromicSubstring", "5_LongestPalindromicSubstring\5_LongestPalindromicSubstring.vcxproj", "{60CA2026-5A37-4B72-9412-A452156C1F65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -226,6 +228,14 @@ Global
 		{5D33A551-2804-43E3-836C-B72F6A3FCBD8}.Release|x64.Build.0 = Release|x64
 		{5D33A551-2804-43E3-836C-B72F6A3FCBD8}.Release|x86.ActiveCfg = Release|Win32
 		{5D33A551-2804-43E3-836C-B72F6A3FCBD8}.Release|x86.Build.0 = Release|Win32
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Debug|x64.ActiveCfg = Debug|x64
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Debug|x64.Build.0 = Debug|x64
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Debug|x86.ActiveCfg = Debug|Win32
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Debug|x86.Build.0 = Debug|Win32
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Release|x64.ActiveCfg = Release|x64
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Release|x64.Build.0 = Release|x64
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Release|x86.ActiveCfg = Release|Win32
+		{60CA2026-5A37-4B72-9412-A452156C1F65}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
