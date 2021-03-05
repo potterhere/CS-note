@@ -58,6 +58,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17_LetterCombinationsOfAPho
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "41_FirstMissingPositive", "41_FirstMissingPositive\41_FirstMissingPositive.vcxproj", "{C146DB95-CA9B-492A-A8D0-E8FFD6D50F10}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "32_LongestValidParentheses", "32_LongestValidParentheses\32_LongestValidParentheses.vcxproj", "{314BD761-A0E5-444A-A606-188E1A2DF951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -266,6 +268,14 @@ Global
 		{C146DB95-CA9B-492A-A8D0-E8FFD6D50F10}.Release|x64.Build.0 = Release|x64
 		{C146DB95-CA9B-492A-A8D0-E8FFD6D50F10}.Release|x86.ActiveCfg = Release|Win32
 		{C146DB95-CA9B-492A-A8D0-E8FFD6D50F10}.Release|x86.Build.0 = Release|Win32
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Debug|x64.ActiveCfg = Debug|x64
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Debug|x64.Build.0 = Debug|x64
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Debug|x86.ActiveCfg = Debug|Win32
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Debug|x86.Build.0 = Debug|Win32
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Release|x64.ActiveCfg = Release|x64
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Release|x64.Build.0 = Release|x64
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Release|x86.ActiveCfg = Release|Win32
+		{314BD761-A0E5-444A-A606-188E1A2DF951}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
